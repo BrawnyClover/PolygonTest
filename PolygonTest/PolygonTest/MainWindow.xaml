@@ -1,0 +1,43 @@
+﻿<Window x:Class="PolygonTest.MainWindow"
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+        xmlns:local="clr-namespace:PolygonTest"
+
+        mc:Ignorable="d"
+
+        Title="MainWindow" Height="450" Width="800" Background="Gray">
+
+    <Grid Background="#01000000">
+
+        <Canvas x:Name="canvas1">
+             <ContentControl x:Name="RectAdder" Visibility="Collapsed">
+
+
+
+                        <Grid >
+
+                            <Rectangle
+
+                                x:Name="Rect"
+
+                                Fill="White" Stroke="White" StrokeThickness="1"  />
+
+                            
+                        </Grid>
+
+
+
+            </ContentControl>
+
+        </Canvas>
+
+    </Grid>
+
+</Window>
